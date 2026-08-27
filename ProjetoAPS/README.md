@@ -47,7 +47,7 @@ Um sistema de software para gerenciamento completo de operações de uma academi
 ### **WHEN (QUANDO?)**
 **Quando foi desenvolvido?**
 
-- 📅 **Período:** Segundo semestre de 2024
+- 📅 **Período:** Segundo semestre de 2026
 - 📍 **Contexto:** Atividades da disciplina Análise e Projeto de Sistemas
 - 🚀 **Próxima Etapa:** Especificação de casos de uso
 
