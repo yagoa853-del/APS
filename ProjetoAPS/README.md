@@ -38,7 +38,7 @@ Um sistema de software para gerenciamento das principais operações de uma acad
 **Integrantes do Grupo:**
 
 - 👨‍💻 Pedro Henrique Silva Monteiro — [@phsmontheiro-glitch](https://github.com/phsmontheiro-glitch)
-- 👨‍💻 Pedro Borges Prudente Machado —  GitHub não informado
+- 👨‍💻 Pedro Borges Prudente Machado —  [@PedroBPMachado](https://github.com/PedroBPMachado)
 - 👨‍💻 Yago Alves de Carvalho — [@yagoa853-del](https://github.com/yagoa853-del)
 - 👨‍💻 Robson Otávio Queiroz Castro — [@robsonotavioqueirozcastroo343-pixel](https://github.com/robsonotavioqueirozcastroo343-pixel)
 - 👨‍💻 Igor Jesus da Silva Tolentino — [@igorjesusdasilvatoletntino](https://github.com/igorjesusdasilvatoletntino)
