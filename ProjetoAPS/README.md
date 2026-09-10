@@ -1,4 +1,4 @@
-# 🏢 Sistema de Gerenciamento de Academia - APS
+# 🏢 Sistema de Gestão para Academias de Musculação - APS
 
 ## 📋 Descrição do Projeto
 
