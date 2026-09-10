@@ -14,11 +14,11 @@
  | Integrante | Nome |
 | --- | --- |
 | 1 | Pedro Henrique Silva Monteiro — [@phsmontheiro-glitch](https://github.com/phsmontheiro-glitch) |
-| 2 | Pedro Borges Prudente Machado —  [@PedroBPMachado](https://github.com/PedroBPMachado)|
-| 3 | Yago Alves de Carvalho  — [@yagoa853-del](https://github.com/yagoa853-del) |
-| 4 | Robson Otávio Queiroz Castro  — [@robsonotavioqueirozcastroo343-pixel](https://github.com/robsonotavioqueirozcastroo343-pixel)|
-| 5 | Igor Jesus da Silva Tolentino  — [@igorjesusdasilvatoletntino](https://github.com/igorjesusdasilvatoletntino)|
-| 6 | Luiz Daniel da Costa Bastos —  [@luizdanieldacostabastosbastos-creator](https://github.com/luizdanieldacostabastosbastos-creator)
+| 2 | Yago Alves de Carvalho  — [@yagoa853-del](https://github.com/yagoa853-del) |
+| 3 | Igor Jesus da Silva Tolentino  — [@igorjesusdasilvatoletntino](https://github.com/igorjesusdasilvatoletntino)|
+| 4 | Luiz Daniel da Costa Bastos —  [@luizdanieldacostabastosbastos-creator](https://github.com/luizdanieldacostabastosbastos-creator)
+| 5 | Pedro Borges Prudente Machado —  [@PedroBPMachado](https://github.com/PedroBPMachado)|
+| 6 | Robson Otávio Queiroz Castro  — [@robsonotavioqueirozcastroo343-pixel](https://github.com/robsonotavioqueirozcastroo343-pixel)|
 
 
 ---
@@ -311,8 +311,12 @@
 
  A técnica MoSCoW auxiliou o grupo a organizar os requisitos de acordo com seu grau de importância, permitindo diferenciar aquilo que é indispensável daquilo que pode ser desenvolvido posteriormente. Dessa forma, foi possível estabelecer um escopo mais realista para a primeira versão do sistema e definir funcionalidades que poderão ser implementadas em versões futuras.
 
----
 
+## 📄 Documento MoSCoW
+
+[Acessar o PDF — Sistema de Gestão para Academias de Musculação (MoSCoW)](https://github.com/yagoa853-del/APS/blob/main/ProjetoAPS/Sistema_de_Gest%C3%A3o_para_Academias_de_Muscula%C3%A7%C3%A3o_MoSCoW.pdf)
+
+---
  # 📦 Entregável
 
  O projeto contempla:
