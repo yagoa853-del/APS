@@ -80,7 +80,7 @@
 | ID | Stakeholder | Papel | Necessidade/Interesse | Influência | Principal |
 | --- | --- | --- | --- | --- | :---: |
 | **ST01** | **Alunos** | **Usuários do sistema** | **Realizar reservas, consultar planos, pagamentos e dados cadastrais** | **Alta** | ⭐ |
-| ST02 | Professores | Responsáveis pelas aulas | Consultar e acompanhar aulas e reservas | Média | |
+| ST02 | Professores (Karla Roberto Sartin) | Responsáveis pelas aulas | Consultar e acompanhar aulas e reservas | Média |
 | ST03 | Funcionários | Operação da academia | Cadastrar alunos, aulas e planos e consultar informações | Alta | |
 | ST04 | Administradores | Gestão do sistema | Gerenciar usuários, planos, aulas, pagamentos e acessos | Alta | |
 | ST05 | Academia | Organização responsável pelo serviço | Melhorar a organização e o gerenciamento das atividades | Alta | |
