@@ -75,15 +75,17 @@
 
 ---
 
- # 👤 5. Stakeholders
+# 👤 5. Stakeholders
 
- | ID | Stakeholder | Papel | Necessidade/Interesse | Influência |
-| --- | --- | --- | --- | --- |
-| ST01 | Alunos | Usuários do sistema | Realizar reservas, consultar planos, pagamentos e dados cadastrais | Alta |
-| ST02 | Professores | Responsáveis pelas aulas | Consultar e acompanhar aulas e reservas | Média |
-| ST03 | Funcionários | Operação da academia | Cadastrar alunos, aulas e planos e consultar informações | Alta |
-| ST04 | Administradores | Gestão do sistema | Gerenciar usuários, planos, aulas, pagamentos e acessos | Alta |
-| ST05 | Academia | Organização responsável pelo serviço | Melhorar a organização e o gerenciamento das atividades | Alta |
+| ID | Stakeholder | Papel | Necessidade/Interesse | Influência | Principal |
+| --- | --- | --- | --- | --- | :---: |
+| **ST01** | **Alunos** | **Usuários do sistema** | **Realizar reservas, consultar planos, pagamentos e dados cadastrais** | **Alta** | ⭐ |
+| ST02 | Professores | Responsáveis pelas aulas | Consultar e acompanhar aulas e reservas | Média | |
+| ST03 | Funcionários | Operação da academia | Cadastrar alunos, aulas e planos e consultar informações | Alta | |
+| ST04 | Administradores | Gestão do sistema | Gerenciar usuários, planos, aulas, pagamentos e acessos | Alta | |
+| ST05 | Academia | Organização responsável pelo serviço | Melhorar a organização e o gerenciamento das atividades | Alta | |
+
+> **Stakeholder principal:** Alunos (ST01) — é o público-alvo primário do sistema e o que concentra a maior parte dos requisitos funcionais levantados na Unidade 1 (RF01, RF02, RF03, RF04 e RF08).
 
  ## Stakeholder principal
 
