@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -9,9 +10,27 @@
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='20' fill='%231f6f5c'/%3E%3Cpath d='M10 40c6-14 11-14 17 0s11 14 17 0 6-8 10-12' fill='none' stroke='%23f6f3ea' stroke-width='6' stroke-linecap='round'/%3E%3Ccircle cx='46' cy='18' r='6' fill='%23f5b544'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap" rel="stylesheet">
+
 <style>
 :root{--bg:#eef7f1;--fg:#0f2d27;--muted:#46625a;--panel:#fff;--line:#cadfd3;--moss:#1f6f5c;--mint:#cfebdd;--sun:#f5b544;--dark:#0f2d27;--ondark:#eaf5ee;--bad:#a9361f;--badbg:#fdeae5;--font-scale:1}
-body.hc{--bg:transparent;--fg:#fff;--muted:#fff;--panel:#071b14;--line:#b7f7d5;--moss:#064b35;--mint:#0b5b3d;--sun:#ffe082;--dark:#03130d;--ondark:#fff;--bad:#ffd0c7;--badbg:#35140f;background:linear-gradient(135deg,#062f24 0%,#08734b 48%,#0b3d2e 100%);background-attachment:fixed}
+
+body.hc{
+--bg:transparent;
+--fg:#fff;
+--muted:#fff;
+--panel:#071b14;
+--line:#b7f7d5;
+--moss:#064b35;
+--mint:#0b5b3d;
+--sun:#ffe082;
+--dark:#03130d;
+--ondark:#fff;
+--bad:#ffd0c7;
+--badbg:#35140f;
+background:linear-gradient(135deg,#062f24 0%,#08734b 48%,#0b3d2e 100%);
+background-attachment:fixed
+}
+
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;font-size:calc(16px*var(--font-scale));scroll-padding-top:96px}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65;overflow-x:hidden}
@@ -121,19 +140,57 @@ h1{margin:0 0 22px;font-size:clamp(2.8rem,6.2vw,5.2rem);font-weight:800}
 .cta .btn{border-color:#000;background:#000;color:#fff}
 footer{padding:44px 0 36px;color:var(--muted);font-size:.92rem}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
-@media(max-width:960px){.hero-grid,.probs,.dl,.team{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.step:nth-child(even){margin-top:0}.bento{grid-template-columns:1fr 1fr}.t.a,.t.b,.t.c,.t.s{grid-column:span 2;grid-row:auto;min-height:0}.t.s{grid-column:span 1}
-.menu{display:inline-grid}.links{display:none;position:absolute;top:74px;left:0;right:0;flex-direction:column;padding:10px;background:var(--panel);border:1px solid var(--line);border-radius:24px}.links.open{display:flex}.tools .gh{display:none}.sun{width:200px;height:200px;right:-10px}}
-@media(max-width:560px){.steps,.bento{grid-template-columns:1fr}.t.s{grid-column:span 2}.row{grid-template-columns:50px 1fr}.row .btn{grid-column:1/-1}.cta{padding:32px 24px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn:hover{transform:none}}
+
+@media(max-width:960px){
+.hero-grid,.probs,.dl,.team{grid-template-columns:1fr}
+.steps{grid-template-columns:1fr 1fr}
+.step:nth-child(even){margin-top:0}
+.bento{grid-template-columns:1fr 1fr}
+.t.a,.t.b,.t.c,.t.s{grid-column:span 2;grid-row:auto;min-height:0}
+.t.s{grid-column:span 1}
+.menu{display:inline-grid}
+.links{display:none;position:absolute;top:74px;left:0;right:0;flex-direction:column;padding:10px;background:var(--panel);border:1px solid var(--line);border-radius:24px}
+.links.open{display:flex}
+.tools .gh{display:none}
+.sun{width:200px;height:200px;right:-10px}
+}
+
+@media(max-width:560px){
+.steps,.bento{grid-template-columns:1fr}
+.t.s{grid-column:span 2}
+.row{grid-template-columns:50px 1fr}
+.row .btn{grid-column:1/-1}
+.cta{padding:32px 24px}
+}
+
+@media(prefers-reduced-motion:reduce){
+html{scroll-behavior:auto}
+.btn:hover{transform:none}
+}
 </style>
 </head>
+
 <body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="logo" viewBox="0 0 64 64"><rect width="64" height="64" rx="20" fill="#1f6f5c"/><path d="M10 40c6-14 11-14 17 0s11 14 17 0 6-8 10-12" fill="none" stroke="#f6f3ea" stroke-width="6" stroke-linecap="round"/><circle cx="46" cy="18" r="6" fill="#f5b544"/></symbol></svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="logo" viewBox="0 0 64 64">
+<rect width="64" height="64" rx="20" fill="#1f6f5c"/>
+<path d="M10 40c6-14 11-14 17 0s11 14 17 0 6-8 10-12" fill="none" stroke="#f6f3ea" stroke-width="6" stroke-linecap="round"/>
+<circle cx="46" cy="18" r="6" fill="#f5b544"/>
+</symbol>
+</svg>
+
 <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
 <div class="wrap header">
 <div class="nav">
 <a class="brand" href="#inicio" aria-label="Longevo Fit, início"><svg aria-hidden="true"><use href="#logo"/></svg>Longevo Fit</a>
-<nav class="links" id="links" aria-label="Navegação principal"><a href="#como-funciona">Como funciona</a><a href="#recursos">Recursos</a><a href="#seguranca">Segurança</a><a href="#identidade">Identidade</a><a href="#equipe">Equipe</a></nav>
+<nav class="links" id="links" aria-label="Navegação principal">
+<a href="#como-funciona">Como funciona</a>
+<a href="#recursos">Recursos</a>
+<a href="#seguranca">Segurança</a>
+<a href="#identidade">Identidade</a>
+<a href="#equipe">Equipe</a>
+</nav>
 <div class="tools">
 <button class="ib" id="font" type="button" aria-label="Aumentar tamanho do texto" title="Aumentar texto">A+</button>
 <button class="ib" id="contrast" type="button" aria-pressed="false" aria-label="Ativar alto contraste" title="Alto contraste">◐</button>
@@ -149,17 +206,30 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 <div>
 <h1>Mexer o corpo, com cuidado em cada passo.</h1>
 <p class="lead">O Longevo Fit organiza cadastro, saúde e aulas para academias de pessoas com 60 anos ou mais, e só confirma uma reserva quando tudo estiver certo para o aluno.</p>
-<div class="actions"><a class="btn pri" href="#agenda">Testar a agenda</a><a class="btn" href="#como-funciona">Como funciona</a></div>
+<div class="actions">
+<a class="btn pri" href="#agenda">Testar a agenda</a>
+<a class="btn" href="#como-funciona">Como funciona</a>
+</div>
 <p class="small">Projeto acadêmico do Centro Universitário UDF.</p>
 </div>
+
 <div class="stage">
-<span class="sun" aria-hidden="true"></span><span class="sun2" aria-hidden="true"></span>
+<span class="sun" aria-hidden="true"></span>
+<span class="sun2" aria-hidden="true"></span>
 <div class="agenda" id="agenda" role="region" aria-labelledby="agt">
 <h2 id="agt">Sua semana em movimento</h2>
 <p class="lab" id="moblab">Mobilidade do aluno</p>
-<div class="seg" role="group" aria-labelledby="moblab"><button type="button" data-m="1">Baixa</button><button type="button" data-m="2">Moderada</button><button type="button" data-m="3">Alta</button></div>
+<div class="seg" role="group" aria-labelledby="moblab">
+<button type="button" data-m="1">Baixa</button>
+<button type="button" data-m="2">Moderada</button>
+<button type="button" data-m="3">Alta</button>
+</div>
 <p class="lab">Situação do aluno (toque para alterar)</p>
-<div class="chips"><button class="chip" type="button" data-c="plano">Plano ativo</button><button class="chip" type="button" data-c="pag">Pagamento em dia</button><button class="chip" type="button" data-c="lib">Liberação médica</button></div>
+<div class="chips">
+<button class="chip" type="button" data-c="plano">Plano ativo</button>
+<button class="chip" type="button" data-c="pag">Pagamento em dia</button>
+<button class="chip" type="button" data-c="lib">Liberação médica</button>
+</div>
 <div class="banner" id="banner" aria-live="polite"></div>
 <div id="rows"></div>
 <p class="small" style="margin:10px 0 0">Demonstração com dados fictícios. Nada é salvo.</p>
@@ -192,7 +262,11 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 <div class="step"><b>3</b><h3>Aula compatível</h3><p>As opções respeitam o nível de mobilidade e as vagas.</p></div>
 <div class="step"><b>4</b><h3>Reserva acompanhada</h3><p>Com tudo atendido, o aluno reserva e consulta sua aula.</p></div>
 </div>
-<div class="lv" aria-label="Níveis de mobilidade"><span>Nível 1 · Baixo</span><span>Nível 2 · Moderado</span><span>Nível 3 · Alto</span></div>
+<div class="lv" aria-label="Níveis de mobilidade">
+<span>Nível 1 · Baixo</span>
+<span>Nível 2 · Moderado</span>
+<span>Nível 3 · Alto</span>
+</div>
 <p class="note"><strong>Importante:</strong> a reserva depende de plano ativo, pagamento em dia, liberação médica válida, mobilidade compatível e vaga disponível. O sistema não substitui avaliação médica.</p>
 </div>
 </section>
@@ -249,48 +323,143 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 <h2>Um projeto feito em equipe.</h2>
 <p class="sub">Levantamento e priorização de requisitos para Análise e Projeto de Sistemas.</p>
 <ul class="team">
-<li><b>PM</b>Pedro Henrique Silva Monteiro</li><li><b>YC</b>Yago Alves de Carvalho</li><li><b>IT</b>Igor Jesus da Silva Tolentino</li><li><b>LB</b>Luiz Daniel da Costa Bastos</li><li><b>PP</b>Pedro Borges Prudente Machado</li><li><b>RC</b>Robson Otávio Queiroz Castro</li>
+<li><b>PM</b>Pedro Henrique Silva Monteiro</li>
+<li><b>YC</b>Yago Alves de Carvalho</li>
+<li><b>IT</b>Igor Jesus da Silva Tolentino</li>
+<li><b>LB</b>Luiz Daniel da Costa Bastos</li>
+<li><b>PP</b>Pedro Borges Prudente Machado</li>
+<li><b>RC</b>Robson Otávio Queiroz Castro</li>
 </ul>
-<div class="course"><span><strong>Centro Universitário UDF</strong><br>Sistemas de Informação · Turma D2 · 2º semestre de 2026</span><span><strong>Orientação</strong><br>Kadidja Valéria</span></div>
-<div class="cta"><h2>Conheça os requisitos por trás da proposta.</h2><a class="btn" href="https://github.com/yagoa853-del/APS/tree/main/ProjetoAPS/Documentacao" target="_blank" rel="noopener noreferrer">Abrir a documentação</a></div>
+<div class="course">
+<span><strong>Centro Universitário UDF</strong><br>Sistemas de Informação · Turma D2 · 2º semestre de 2026</span>
+<span><strong>Orientação</strong><br>Kadidja Valéria</span>
+</div>
+<div class="cta">
+<h2>Conheça os requisitos por trás da proposta.</h2>
+<a class="btn" href="https://github.com/yagoa853-del/APS/tree/main/ProjetoAPS/Documentacao" target="_blank" rel="noopener noreferrer">Abrir a documentação</a>
+</div>
 </div>
 </section>
 </main>
-<footer><div class="wrap"><span>© 2026 Longevo Fit · Trabalho acadêmico — UDF</span><a href="#inicio">Voltar ao topo</a></div></footer>
+
+<footer>
+<div class="wrap">
+<span>© 2026 Longevo Fit · Trabalho acadêmico — UDF</span>
+<a href="#inicio">Voltar ao topo</a>
+</div>
+</footer>
+
 <script>
 (()=>{
 const $=s=>document.querySelector(s),all=s=>[...document.querySelectorAll(s)],root=document.documentElement;
-const aulas=[{d:"Seg",h:"09:00",n:"Alongamento",nv:1,v:8},{d:"Seg",h:"10:30",n:"Hidroginástica",nv:1,v:1},{d:"Ter",h:"14:00",n:"Pilates adaptado",nv:2,v:6},{d:"Qua",h:"16:00",n:"Caminhada guiada",nv:2,v:0},{d:"Qui",h:"18:00",n:"Treino funcional",nv:3,v:4}];
-const cond={plano:true,pag:true,lib:true},msgs={plano:"Plano inativo: a reserva exige plano ativo.",pag:"Pagamento pendente: regularize para reservar.",lib:"Liberação médica vencida ou ausente."};
+
+const aulas=[
+{d:"Seg",h:"09:00",n:"Alongamento",nv:1,v:8},
+{d:"Seg",h:"10:30",n:"Hidroginástica",nv:1,v:1},
+{d:"Ter",h:"14:00",n:"Pilates adaptado",nv:2,v:6},
+{d:"Qua",h:"16:00",n:"Caminhada guiada",nv:2,v:0},
+{d:"Qui",h:"18:00",n:"Treino funcional",nv:3,v:4}
+];
+
+const cond={plano:true,pag:true,lib:true};
+const msgs={
+plano:"Plano inativo: a reserva exige plano ativo.",
+pag:"Pagamento pendente: regularize para reservar.",
+lib:"Liberação médica vencida ou ausente."
+};
+
 const res=new Set(),NV=["","baixa","moderada","alta"];
 let mob=2,last="Todas as condições atendidas. Escolha uma aula.";
+
 const dots=n=>`<span class="dots" aria-hidden="true">${[1,2,3].map(k=>`<i class="${k<=n?"on":""}"></i>`).join("")}</span>`;
+
 function render(focus){
  all("[data-m]").forEach(b=>b.setAttribute("aria-pressed",+b.dataset.m===mob));
  all("[data-c]").forEach(b=>b.setAttribute("aria-pressed",cond[b.dataset.c]));
+
  const bad=Object.keys(cond).find(k=>!cond[k]),bn=$("#banner");
- bn.textContent=bad?"Reservas bloqueadas. "+msgs[bad]:last;bn.classList.toggle("no",!!bad);
+ bn.textContent=bad?"Reservas bloqueadas. "+msgs[bad]:last;
+ bn.classList.toggle("no",!!bad);
+
  $("#rows").innerHTML=aulas.map((a,i)=>{
   const r=res.has(i),free=a.v-(r?1:0),lvl=a.nv>mob;
   let btn,info=`${dots(a.nv)}Nível ${a.nv} · ${free} ${free===1?"vaga":"vagas"}`;
+
   if(r)btn=`<button class="btn" data-i="${i}" type="button" aria-label="Cancelar reserva de ${a.n}">Cancelar</button>`;
   else if(bad)btn=`<button class="btn" disabled type="button">Bloqueada</button>`;
-  else if(lvl){btn=`<button class="btn" disabled type="button">Indisponível</button>`;info=`${dots(a.nv)}Exige mobilidade nível ${a.nv}`}
-  else if(free<=0){btn=`<button class="btn" disabled type="button">Sem vagas</button>`}
+  else if(lvl){
+   btn=`<button class="btn" disabled type="button">Indisponível</button>`;
+   info=`${dots(a.nv)}Exige mobilidade nível ${a.nv}`;
+  }
+  else if(free<=0)btn=`<button class="btn" disabled type="button">Sem vagas</button>`;
   else btn=`<button class="btn pri" data-i="${i}" type="button" aria-label="Reservar ${a.n}">Reservar</button>`;
-  return `<div class="row${lvl&&!r?" dim":""}"><div class="when"><small>${a.d}</small>${a.h}</div><div class="nm"><b>${a.n}</b><small>${info}${r?" · reservada":""}</small></div>${btn}</div>`}).join("");
+
+  return `<div class="row${lvl&&!r?" dim":""}">
+  <div class="when"><small>${a.d}</small>${a.h}</div>
+  <div class="nm"><b>${a.n}</b><small>${info}${r?" · reservada":""}</small></div>
+  ${btn}</div>`;
+ }).join("");
+
  if(focus!=null)$(`[data-i="${focus}"]`)?.focus();
 }
-$("#rows").addEventListener("click",e=>{const b=e.target.closest("[data-i]");if(!b)return;const i=+b.dataset.i,a=aulas[i];
- if(res.has(i)){res.delete(i);last=`Reserva cancelada: ${a.n}. A vaga foi liberada.`}else{res.add(i);last=`Reserva confirmada: ${a.n}, ${a.d} às ${a.h}.`}render(i)});
-all("[data-m]").forEach(b=>b.onclick=()=>{mob=+b.dataset.m;last=`Mobilidade ${NV[mob]}. Aulas de nível maior ficam indisponíveis.`;render()});
-all("[data-c]").forEach(b=>b.onclick=()=>{const k=b.dataset.c;cond[k]=!cond[k];last="Todas as condições atendidas. Escolha uma aula.";render()});
+
+$("#rows").addEventListener("click",e=>{
+ const b=e.target.closest("[data-i]");
+ if(!b)return;
+ const i=+b.dataset.i,a=aulas[i];
+
+ if(res.has(i)){
+  res.delete(i);
+  last=`Reserva cancelada: ${a.n}. A vaga foi liberada.`;
+ }else{
+  res.add(i);
+  last=`Reserva confirmada: ${a.n}, ${a.d} às ${a.h}.`;
+ }
+ render(i);
+});
+
+all("[data-m]").forEach(b=>b.onclick=()=>{
+ mob=+b.dataset.m;
+ last=`Mobilidade ${NV[mob]}. Aulas de nível maior ficam indisponíveis.`;
+ render();
+});
+
+all("[data-c]").forEach(b=>b.onclick=()=>{
+ const k=b.dataset.c;
+ cond[k]=!cond[k];
+ last="Todas as condições atendidas. Escolha uma aula.";
+ render();
+});
+
 render();
-let fs=1;const fb=$("#font"),cb=$("#contrast"),mb=$("#menu"),lk=$("#links");
-fb.onclick=()=>{fs=fs>=1.2?1:Math.round((fs+.1)*10)/10;root.style.setProperty("--font-scale",fs);fb.textContent=fs>=1.2?"A":"A+";fb.setAttribute("aria-label",fs>=1.2?"Restaurar tamanho do texto":"Aumentar tamanho do texto")};
-cb.onclick=()=>{const on=document.body.classList.toggle("hc");cb.setAttribute("aria-pressed",on);cb.setAttribute("aria-label",on?"Desativar alto contraste":"Ativar alto contraste")};
-mb.onclick=()=>{const o=lk.classList.toggle("open");mb.setAttribute("aria-expanded",o);mb.setAttribute("aria-label",o?"Fechar menu":"Abrir menu")};
-lk.querySelectorAll("a").forEach(a=>a.onclick=()=>{lk.classList.remove("open");mb.setAttribute("aria-expanded","false")});
+
+let fs=1;
+const fb=$("#font"),cb=$("#contrast"),mb=$("#menu"),lk=$("#links");
+
+fb.onclick=()=>{
+ fs=fs>=1.2?1:Math.round((fs+.1)*10)/10;
+ root.style.setProperty("--font-scale",fs);
+ fb.textContent=fs>=1.2?"A":"A+";
+ fb.setAttribute("aria-label",fs>=1.2?"Restaurar tamanho do texto":"Aumentar tamanho do texto");
+};
+
+cb.onclick=()=>{
+ const on=document.body.classList.toggle("hc");
+ cb.setAttribute("aria-pressed",on);
+ cb.setAttribute("aria-label",on?"Desativar alto contraste":"Ativar alto contraste");
+};
+
+mb.onclick=()=>{
+ const o=lk.classList.toggle("open");
+ mb.setAttribute("aria-expanded",o);
+ mb.setAttribute("aria-label",o?"Fechar menu":"Abrir menu");
+};
+
+lk.querySelectorAll("a").forEach(a=>a.onclick=()=>{
+ lk.classList.remove("open");
+ mb.setAttribute("aria-expanded","false");
+});
+
 })();
 </script>
 </body>
