@@ -169,62 +169,119 @@ html{scroll-behavior:auto}
 </style>
 </head>
 <body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="logo" viewBox="0 0 64 64"><rect width="64" height="64" rx="20" fill="#1f6f5c"/><path d="M10 40c6-14 11-14 17 0s11 14 17 0 6-8 10-12" fill="none" stroke="#f6f3ea" stroke-width="6" stroke-linecap="round"/><circle cx="46" cy="18" r="6" fill="#f5b544"/></symbol></svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="logo" viewBox="0 0 64 64">
+<rect width="64" height="64" rx="20" fill="#1f6f5c"/>
+<path d="M10 40c6-14 11-14 17 0s11 14 17 0 6-8 10-12" fill="none" stroke="#f6f3ea" stroke-width="6" stroke-linecap="round"/>
+<circle cx="46" cy="18" r="6" fill="#f5b544"/>
+</symbol>
+</svg>
 <a class="skip" href="#conteudo">Pular para o conteúdo</a>
-<div class="wrap header"><div class="nav"><a class="brand" href="#inicio" aria-label="Longevo Fit, início"><svg aria-hidden="true"><use href="#logo"/></svg>Longevo Fit</a><nav class="links" id="links" aria-label="Navegação principal"><a href="#como-funciona">Como funciona</a><a href="#recursos">Recursos</a><a href="#seguranca">Segurança</a><a href="#identidade">Identidade</a><a href="#equipe">Equipe</a></nav><div class="tools"><button class="ib" id="font" type="button" aria-label="Aumentar tamanho do texto" title="Aumentar texto">A+</button><button class="ib" id="contrast" type="button" aria-pressed="false" aria-label="Ativar alto contraste" title="Alto contraste">◐</button><a class="btn pri gh" style="min-height:46px;padding:6px 20px" href="https://github.com/yagoa853-del/APS" target="_blank" rel="noopener noreferrer">Repositório</a><button class="ib menu" id="menu" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="links">☰</button></div></div></div>
+<div class="wrap header">
+<div class="nav">
+<a class="brand" href="#inicio" aria-label="Longevo Fit, início"><svg aria-hidden="true"><use href="#logo"/></svg>Longevo Fit</a>
+<nav class="links" id="links" aria-label="Navegação principal">
+<a href="#como-funciona">Como funciona</a>
+<a href="#recursos">Recursos</a>
+<a href="#seguranca">Segurança</a>
+<a href="#identidade">Identidade</a>
+<a href="#equipe">Equipe</a>
+</nav>
+<div class="tools">
+<button class="ib" id="font" type="button" aria-label="Aumentar tamanho do texto" title="Aumentar texto">A+</button>
+<button class="ib" id="contrast" type="button" aria-pressed="false" aria-label="Ativar alto contraste" title="Alto contraste">◐</button>
+<a class="btn pri gh" style="min-height:46px;padding:6px 20px" href="https://github.com/yagoa853-del/APS" target="_blank" rel="noopener noreferrer">Repositório</a>
+<button class="ib menu" id="menu" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="links">☰</button>
+</div>
+</div>
+</div>
 <main id="conteudo">
-<section class="hero" id="inicio"><div class="wrap hero-grid"><div><h1 class="rv">Mexer o corpo, com cuidado em cada passo.</h1><p class="lead rv" style="--d:.12s">O Longevo Fit organiza cadastro, saúde e aulas para academias de pessoas com 60 anos ou mais, e só confirma uma reserva quando tudo estiver certo para o aluno.</p><div class="actions rv" style="--d:.24s"><a class="btn pri" href="#agenda">Testar a agenda</a><a class="btn" href="#como-funciona">Como funciona</a></div><p class="small rv" style="--d:.36s">Projeto acadêmico do Centro Universitário UDF.</p></div><div class="stage rv" style="--d:.2s"><span class="sun" aria-hidden="true"></span><span class="sun2" aria-hidden="true"></span><div class="agenda" id="agenda" role="region" aria-labelledby="agt"><h2 id="agt">Sua semana em movimento</h2><p class="lab" id="moblab">Mobilidade do aluno</p><div class="seg" role="group" aria-labelledby="moblab"><button type="button" data-m="1">Baixa</button><button type="button" data-m="2">Moderada</button><button type="button" data-m="3">Alta</button></div><p class="lab">Situação do aluno (toque para alterar)</p><div class="chips"><button class="chip" type="button" data-c="plano">Plano ativo</button><button class="chip" type="button" data-c="pag">Pagamento em dia</button><button class="chip" type="button" data-c="lib">Liberação médica</button></div><div class="banner" id="banner" aria-live="polite"></div><div id="rows" class="anim"></div><p class="small" id="count" style="margin:10px 0 0"></p><p class="small" style="margin:4px 0 0">Demonstração com dados fictícios. Nada é salvo.</p></div></div></div></section>
-<section class="dark" id="desafio"><svg class="wave t" viewBox="0 0 1440 56" preserveAspectRatio="none" aria-hidden="true"><path d="M0 28C180 0 360 56 540 28S900 0 1080 28s240 28 360 0V0H0z" fill="var(--bg)"/></svg><div class="wrap"><h2 class="rv">Informação importante não deveria ficar espalhada.</h2><div class="probs"><p class="prob rv"><b>Saúde.</b> Dados de saúde, mobilidade e liberação médica ficam em papel, telefone e mensagens.</p><p class="prob rv" style="--d:.1s"><b>Reservas.</b> Dá para reservar uma aula sem vaga ou que não combina com o aluno.</p><p class="prob rv"><b>Prazos.</b> Autorizações vencidas passam despercebidas até virar problema.</p><p class="prob rv" style="--d:.1s"><b>Autonomia.</b> Telas complicadas tiram a independência de quem precisa de clareza.</p></div></div><svg class="wave b" viewBox="0 0 1440 56" preserveAspectRatio="none" aria-hidden="true"><path d="M0 28C180 0 360 56 540 28S900 0 1080 28s240 28 360 0V0H0z" fill="var(--bg)"/></svg></section>
-<section class="sec" id="como-funciona"><div class="wrap"><h2 class="rv">Da preparação à reserva, cada etapa importa.</h2><p class="sub rv">O sistema considera o essencial antes de confirmar uma aula.</p><div class="steps"><div class="step rv"><b>1</b><h3>Cadastro e contato</h3><p>O aluno é cadastrado com contato de emergência.</p></div><div class="step rv" style="--d:.1s"><b>2</b><h3>Informações de saúde</h3><p>Profissional autorizado registra a ficha e a equipe valida a liberação.</p></div><div class="step rv" style="--d:.2s"><b>3</b><h3>Aula compatível</h3><p>As opções respeitam o nível de mobilidade e as vagas.</p></div><div class="step rv" style="--d:.3s"><b>4</b><h3>Reserva acompanhada</h3><p>Com tudo atendido, o aluno reserva e consulta sua aula.</p></div></div><div class="lv rv" aria-label="Níveis de mobilidade"><span>Nível 1 · Baixo</span><span>Nível 2 · Moderado</span><span>Nível 3 · Alto</span></div><p class="note rv"><strong>Importante:</strong> a reserva depende de plano ativo, pagamento em dia, liberação médica válida, mobilidade compatível e vaga disponível. O sistema não substitui avaliação médica.</p></div></section>
-<section class="sec" id="recursos"><div class="wrap"><h2 class="rv">O essencial para uma rotina mais segura.</h2><p class="sub rv">Funcionalidades previstas na documentação do projeto.</p><div class="bento"><div class="t a rv"><h3>Ficha de saúde</h3><p>Condições, medicamentos, alergias e restrições, com data de atualização e acesso controlado.</p></div><div class="t b rv" style="--d:.1s"><h3>Liberação médica</h3><p>Validação do documento e aviso quando estiver perto de vencer.</p></div><div class="t c rv" style="--d:.2s"><h3>Aulas por mobilidade</h3><p>Níveis baixo, moderado e alto indicam a aula compatível com cada aluno.</p></div><div class="t s rv"><h3>Cadastro do aluno</h3><p>Dados do aluno 60+ e ao menos um contato de emergência.</p></div><div class="t s rv" style="--d:.1s"><h3>Reservas e cancelamentos</h3><p>Verificação de vagas e liberação do lugar ao cancelar.</p></div><div class="t s rv" style="--d:.2s"><h3>Perfis e privacidade</h3><p>Permissões por papel; ficha de saúde só para quem é autorizado.</p></div></div><p class="more rv">Também previstos: planos e pagamentos, contato de emergência acessível ao professor e, no futuro, acompanhamento por familiar sem acesso a dados de saúde.</p></div></section>
-<section class="sec" id="seguranca"><div class="wrap"><h2 class="rv">Segurança e autonomia caminham juntas.</h2><p class="sub rv">Dados de saúde são sensíveis. O controle de acesso por perfil e a interface acessível fazem parte do projeto desde o início.</p><dl class="dl"><div class="rv"><dt>Privacidade por perfil</dt><dd>Só o aluno, o profissional de saúde e funcionários autorizados veem a ficha. Familiares não.</dd></div><div class="rv"><dt>Acessibilidade</dt><dd>Fonte ajustável, contraste reforçado e navegação por teclado ajudam a tornar o uso mais acessível.</dd></div><div class="rv"><dt>Dados demonstrativos</dt><dd>Esta página é uma demonstração visual. Não armazena informações pessoais nem substitui um sistema real com autenticação e banco de dados.</dd></div></dl></div></section>
-<section class="sec" id="identidade"><div class="wrap"><h2 class="rv">Uma identidade que transmite acolhimento.</h2><p class="sub rv">O Longevo Fit combina clareza, movimento e confiança em uma linguagem visual simples.</p><div class="id rv"><svg class="logo-big" aria-hidden="true"><use href="#logo"/></svg><div><h3 class="disp" style="font-size:2rem;margin:0 0 8px">Longevo Fit</h3><p class="small">Movimento com cuidado em cada passo.</p><div class="swatches" aria-label="Paleta de cores"><figure><i style="background:#1f6f5c"></i>Verde<small>#1f6f5c</small></figure><figure><i style="background:#eef7f1"></i>Claro<small>#eef7f1</small></figure><figure><i style="background:#f5b544"></i>Amarelo<small>#f5b544</small></figure><figure><i style="background:#0f2d27"></i>Escuro<small>#0f2d27</small></figure></div></div></div></div></section>
-<section class="sec" id="equipe"><div class="wrap"><h2 class="rv">Projeto acadêmico.</h2><p class="sub rv">Uma proposta de solução digital para apoiar academias voltadas ao público com 60 anos ou mais.</p><ul class="team rv"><li><b>LF</b><span>Longevo Fit · Projeto acadêmico</span></li><li><b>UDF</b><span>Centro Universitário UDF</span></li></ul><div class="course rv"><span><strong>Área:</strong> Tecnologia e desenvolvimento de software</span><span><strong>Proposta:</strong> Gestão acessível de alunos e aulas</span></div></div></section>
-<section class="wrap cta rv"><h2>Mais organização para a equipe. Mais autonomia para o aluno.</h2><a class="btn" href="#agenda">Experimentar a demonstração</a></section>
-</main>
-<footer><div class="wrap"><span>© <span id="year"></span> Longevo Fit · Projeto acadêmico do Centro Universitário UDF.</span><a href="#inicio">Voltar ao início ↑</a></div></footer>
-<script>
-(() => {
-  "use strict";
-  document.documentElement.classList.add("js");
-  const state = {mobility:2,plan:true,payment:true,medical:true,reservations:new Set()};
-  const classes = [
-    {id:"mob",time:"08:00",day:"Segunda",name:"Mobilidade e equilíbrio",level:1,spots:3,capacity:8,description:"Movimentos leves e alongamento"},
-    {id:"func",time:"09:30",day:"Terça",name:"Treino funcional",level:2,spots:2,capacity:8,description:"Força e coordenação"},
-    {id:"dance",time:"10:00",day:"Quarta",name:"Dança e ritmo",level:2,spots:0,capacity:8,description:"Atividade em grupo"},
-    {id:"strength",time:"14:00",day:"Quinta",name:"Fortalecimento",level:3,spots:4,capacity:8,description:"Exercícios de maior intensidade"}
-  ];
-  const rows=document.getElementById("rows"),banner=document.getElementById("banner"),count=document.getElementById("count");
-  const mobilityButtons=[...document.querySelectorAll("[data-m]")],conditionButtons=[...document.querySelectorAll("[data-c]")];
-  function eligibilityMessage(){if(!state.plan)return "Reserva bloqueada: o plano do aluno está inativo.";if(!state.payment)return "Reserva bloqueada: existe um pagamento pendente.";if(!state.medical)return "Reserva bloqueada: é necessária uma liberação médica válida.";return "Tudo certo! Escolha uma aula compatível com sua mobilidade."}
-  function render(){
-    const allowed=state.plan&&state.payment&&state.medical;
-    banner.textContent=eligibilityMessage();banner.classList.toggle("no",!allowed);banner.classList.remove("pop");void banner.offsetWidth;banner.classList.add("pop");
-    mobilityButtons.forEach(button=>button.setAttribute("aria-pressed",String(Number(button.dataset.m)===state.mobility)));
-    conditionButtons.forEach(button=>{const key=button.dataset.c;const active=key==="plano"?state.plan:key==="pag"?state.payment:state.medical;button.setAttribute("aria-pressed",String(active))});
-    rows.innerHTML="";let availableCount=0;
-    classes.forEach((item,index)=>{
-      const compatible=item.level<=state.mobility,reserved=state.reservations.has(item.id),remaining=item.spots-(reserved?1:0),hasSpace=reserved||remaining>0,canBook=allowed&&compatible&&hasSpace;
-      if(compatible&&remaining>0)availableCount++;
-      const row=document.createElement("div");row.className="row"+(!compatible?" dim":"")+(reserved?" mine":"");row.style.animationDelay=`${index*.07}s`;
-      const time=document.createElement("div");time.className="when";time.innerHTML=`${item.time}<small>${item.day}</small>`;
-      const details=document.createElement("div");details.className="nm";const title=document.createElement("b");title.textContent=item.name;const subtitle=document.createElement("small");subtitle.textContent=`${item.description} · Nível ${item.level} · ${Math.max(0,remaining)} vaga(s)`;details.append(title,subtitle);
-      const button=document.createElement("button");button.type="button";button.className="btn "+(reserved?"":"pri");button.textContent=reserved?"Cancelar":"Reservar";button.disabled=reserved?false:!canBook;button.setAttribute("aria-label",`${reserved?"Cancelar":"Reservar"} ${item.name}`);
-      button.addEventListener("click",()=>{if(state.reservations.has(item.id)){state.reservations.delete(item.id)}else if(allowed&&compatible&&item.spots>0){state.reservations.add(item.id)}render()});
-      row.append(time,details,button);rows.append(row);
-    });
-    count.textContent=`${state.reservations.size} aula(s) reservada(s) · ${availableCount} opção(ões) compatível(is) com vaga.`;
-  }
-  mobilityButtons.forEach(button=>button.addEventListener("click",()=>{state.mobility=Number(button.dataset.m);render()}));
-  conditionButtons.forEach(button=>button.addEventListener("click",()=>{const key=button.dataset.c;if(key==="plano")state.plan=!state.plan;if(key==="pag")state.payment=!state.payment;if(key==="lib")state.medical=!state.medical;render()}));
-  const contrastButton=document.getElementById("contrast");contrastButton.addEventListener("click",()=>{const enabled=document.body.classList.toggle("hc");contrastButton.setAttribute("aria-pressed",String(enabled));contrastButton.setAttribute("aria-label",enabled?"Desativar alto contraste":"Ativar alto contraste")});
-  const fontButton=document.getElementById("font");let fontScale=1;fontButton.addEventListener("click",()=>{fontScale=fontScale>=1.25?1:Math.round((fontScale+.05)*100)/100;document.documentElement.style.setProperty("--font-scale",String(fontScale));fontButton.textContent=fontScale>=1.25?"A":"A+";fontButton.title=fontScale>=1.25?"Restaurar tamanho do texto":"Aumentar tamanho do texto"});
-  const menuButton=document.getElementById("menu"),nav=document.getElementById("links");menuButton.addEventListener("click",()=>{const open=nav.classList.toggle("open");menuButton.setAttribute("aria-expanded",String(open));menuButton.setAttribute("aria-label",open?"Fechar menu":"Abrir menu");menuButton.textContent=open?"×":"☰"});
-  nav.querySelectorAll("a").forEach(link=>link.addEventListener("click",()=>{nav.classList.remove("open");menuButton.setAttribute("aria-expanded","false");menuButton.setAttribute("aria-label","Abrir menu");menuButton.textContent="☰"}));
-  document.getElementById("year").textContent=new Date().getFullYear();
-  if("IntersectionObserver" in window&&!window.matchMedia("(prefers-reduced-motion: reduce)").matches){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("in");observer.unobserve(entry.target)}}),{threshold:.12});document.querySelectorAll(".rv").forEach(element=>observer.observe(element))}else{document.querySelectorAll(".rv").forEach(element=>element.classList.add("in"))}
-  render();
-})();
-</script>
-</body>
-</html>
+<section class="hero" id="inicio">
+<div class="wrap hero-grid">
+<div>
+<h1 class="rv">Mexer o corpo, com cuidado em cada passo.</h1>
+<p class="lead rv" style="--d:.12s">O Longevo Fit organiza cadastro, saúde e aulas para academias de pessoas com 60 anos ou mais, e só confirma uma reserva quando tudo estiver certo para o aluno.</p>
+<div class="actions rv" style="--d:.24s">
+<a class="btn pri" href="#agenda">Testar a agenda</a>
+<a class="btn" href="#como-funciona">Como funciona</a>
+</div>
+<p class="small rv" style="--d:.36s">Projeto acadêmico do Centro Universitário UDF.</p>
+</div>
+<div class="stage rv" style="--d:.2s">
+<span class="sun" aria-hidden="true"></span>
+<span class="sun2" aria-hidden="true"></span>
+<div class="agenda" id="agenda" role="region" aria-labelledby="agt">
+<h2 id="agt">Sua semana em movimento</h2>
+<p class="lab" id="moblab">Mobilidade do aluno</p>
+<div class="seg" role="group" aria-labelledby="moblab">
+<button type="button" data-m="1">Baixa</button>
+<button type="button" data-m="2">Moderada</button>
+<button type="button" data-m="3">Alta</button>
+</div>
+<p class="lab">Situação do aluno (toque para alterar)</p>
+<div class="chips">
+<button class="chip" type="button" data-c="plano">Plano ativo</button>
+<button class="chip" type="button" data-c="pag">Pagamento em dia</button>
+<button class="chip" type="button" data-c="lib">Liberação médica</button>
+</div>
+<div class="banner" id="banner" aria-live="polite"></div>
+<div id="rows" class="anim"></div>
+<p class="small" id="count" style="margin:10px 0 0"></p>
+<p class="small" style="margin:4px 0 0">Demonstração com dados fictícios. Nada é salvo.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="dark" id="desafio">
+<svg class="wave t" viewBox="0 0 1440 56" preserveAspectRatio="none" aria-hidden="true"><path d="M0 28C180 0 360 56 540 28S900 0 1080 28s240 28 360 0V0H0z" fill="var(--bg)"/></svg>
+<div class="wrap">
+<h2 class="rv">Informação importante não deveria ficar espalhada.</h2>
+<div class="probs">
+<p class="prob rv"><b>Saúde.</b> Dados de saúde, mobilidade e liberação médica ficam em papel, telefone e mensagens.</p>
+<p class="prob rv" style="--d:.1s"><b>Reservas.</b> Dá para reservar uma aula sem vaga ou que não combina com o aluno.</p>
+<p class="prob rv"><b>Prazos.</b> Autorizações vencidas passam despercebidas até virar problema.</p>
+<p class="prob rv" style="--d:.1s"><b>Autonomia.</b> Telas complicadas tiram a independência de quem precisa de clareza.</p>
+</div>
+</div>
+<svg class="wave b" viewBox="0 0 1440 56" preserveAspectRatio="none" aria-hidden="true"><path d="M0 28C180 0 360 56 540 28S900 0 1080 28s240 28 360 0V0H0z" fill="var(--bg)"/></svg>
+</section>
+<section class="sec" id="como-funciona">
+<div class="wrap">
+<h2 class="rv">Da preparação à reserva, cada etapa importa.</h2>
+<p class="sub rv">O sistema considera o essencial antes de confirmar uma aula.</p>
+<div class="steps">
+<div class="step rv"><b>1</b><h3>Cadastro e contato</h3><p>O aluno é cadastrado com contato de emergência.</p></div>
+<div class="step rv" style="--d:.1s"><b>2</b><h3>Informações de saúde</h3><p>Profissional autorizado registra a ficha e a equipe valida a liberação.</p></div>
+<div class="step rv" style="--d:.2s"><b>3</b><h3>Aula compatível</h3><p>As opções respeitam o nível de mobilidade e as vagas.</p></div>
+<div class="step rv" style="--d:.3s"><b>4</b><h3>Reserva acompanhada</h3><p>Com tudo atendido, o aluno reserva e consulta sua aula.</p></div>
+</div>
+<div class="lv rv" aria-label="Níveis de mobilidade">
+<span>Nível 1 · Baixo</span>
+<span>Nível 2 · Moderado</span>
+<span>Nível 3 · Alto</span>
+</div>
+<p class="note rv"><strong>Importante:</strong> a reserva depende de plano ativo, pagamento em dia, liberação médica válida, mobilidade compatível e vaga disponível. O sistema não substitui avaliação médica.</p>
+</div>
+</section>
+<section class="sec" id="recursos">
+<div class="wrap">
+<h2 class="rv">O essencial para uma rotina mais segura.</h2>
+<p class="sub rv">Funcionalidades previstas na documentação do projeto.</p>
+<div class="bento">
+<div class="t a rv"><h3>Ficha de saúde</h3><p>Condições, medicamentos, alergias e restrições, com data de atualização e acesso controlado.</p></div>
+<div class="t b rv" style="--d:.1s"><h3>Liberação médica</h3><p>Validação do documento e aviso quando estiver perto de vencer.</p></div>
+<div class="t c rv" style="--d:.2s"><h3>Aulas por mobilidade</h3><p>Níveis baixo, moderado e alto indicam a aula compatível com cada aluno.</p></div>
+<div class="t s rv"><h3>Cadastro do aluno</h3><p>Dados do aluno 60+ e ao menos um contato de emergência.</p></div>
+<div class="t s rv" style="--d:.1s"><h3>Reservas e cancelamentos</h3><p>Verificação de vagas e liberação do lugar ao cancelar.</p></div>
+<div class="t s rv" style="--d:.2s"><h3>Perfis e privacidade</h3><p>Permissões por papel; ficha de saúde só para quem é autorizado.</p></div>
+</div>
+<p class="more rv">Também previstos: planos e pagamentos, contato de emergência acessível ao professor e, no futuro, acompanhamento por familiar sem acesso a dados de saúde.</p>
+</div>
+</section>
+<section class="sec" id="seguranca">
+<div class="wrap">
+<h2 class="rv">Segurança e autonomia caminham juntas.</h2>
+<p class="sub rv">Dados de saúde são sensíveis. O controle de acesso por perfil e a interface acessível fazem parte do projeto desde o início.</p>
+<dl class="dl">
+<div class="rv"><dt>Privacidade por perfil</dt><dd>Só o aluno, o profissional de saúde e funcionários autorizados veem a ficha. Familiares não.</dd></div>
+<div class="rv" style="--d:.1s"><dt>Acessibilidade mensurável</dt><dd>Fonte ajustável, contraste mínimo 4,5:1, bo
